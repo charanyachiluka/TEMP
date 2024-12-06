@@ -5,9 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+    .c{
+        display: flex;
+        justify-content: center;
+    }
+    .box{
+        /* background-color: antiquewhite; */
+        width: 310px;
+        height: 600px;
+        box-shadow: 2px 2px 2px 2px rgb(205, 192, 192);
+        padding: 15px;
+        margin-left: 130px;
+        border-radius: 5px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin: 4px;
+        margin-left: 25px;
+    }
+    .q:hover{
+        background-color: skyblue;
+        border-radius: 7px;
+    }
+    .sign:hover{
+        background-color: rgb(17, 17, 122);
+    }
+</style>
 <body>
-    <div>
-        <img src="LinkedIn-Logo-PNG.png">
+    <img src="LinkedIn-Logo-PNG.png" alt="">
+    <div class="c">
+        
+        <div class="box">
+            <h2 style="font-size: 2rem;">Sign in</h2>
+            <p>
+                <input type="text" style="width: 290px; height: 40px; border-radius: 5px;">
+            </p>
+            <p>
+                <input type="password" style="width: 290px; height: 40px; border-radius: 5px;">
+            </p>
+            <a href="" class="q">Forgot password?</a>
+            <p><input type="checkbox">Keep me logged in</p>
+            <p><button style="width: 290px; height: 50px; border-radius: 50px; background-color:rgb(26, 100, 228); color: white;" value="Signup" class="sign">sign up</button></p>
+            _____________________or_____________________
+            <h6>By clicking Continue, you agree to <a href="">LinkedIn’s User Agreement, Privacy Policy,</a> and <a href="">Cookie Policy.</a></h6>
+            <p><button style="width: 290px; height: 50px; border-radius:50px ;">
+                <!-- <img src="Image-Source-PlusPNG.com.png" width="0.5px" height="0.5px"> -->
+                Continue with google</button></p>
+            <p><button style="width: 290px; height: 50px; border-radius:50px ;">Continue with apple</button></p>
+        </div>
     </div>
 </body>
 </html>
